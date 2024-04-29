@@ -1,0 +1,28 @@
+{
+	"/": [
+		"src/routes/+page.ts",
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/blogs": [
+		"src/routes/blogs/+page.ts",
+		"src/routes/blogs/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/blogs/[blog]": [
+		"src/routes/blogs/[blog]/+page.ts",
+		"src/routes/blogs/[blog]/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/projects": [
+		"src/routes/projects/+page.ts",
+		"src/routes/projects/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/projects/[project]": [
+		"src/routes/projects/[project]/+page.ts",
+		"src/routes/projects/[project]/+page.server.ts",
+		"src/routes/+layout.ts"
+	]
+}
