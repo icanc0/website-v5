@@ -1,6 +1,5 @@
 <script lang="ts">
 
-	import "./index.css"
 
 	import GithubCard from '$lib/GithubCard.svelte';
 	//TODO: project section, pulls from github api when there isnt a specific project section

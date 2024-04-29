@@ -4,22 +4,19 @@ import AmogusToggleSwitch from '$lib/AmogusToggleSwitch.svelte'
 
 </script>
 
-<div class="flex flex-row">
-    
-    <div class="flex flex-row p-2  w-full gap-2">
-        <div class="h-full w-10">
+<div class="flex flex-row font-baron-regular ">
+
+    <div class="flex flex-row p-2 w-full gap-2">
+        <div class="w-10">
             <img src="/amogus.png" alt="when the amogus is sus">
         </div>
-        <div class="font-bold px-3 py-2 text-gray-900">
-            Vincent Xie
-        </div>
-        <a href="/" class="px-3 py-2 bg-gray-900 font-bold text-gray-100 rounded-md">
+        <a href="/" class="my-auto px-3 py-2 font-bold text-gray-900 rounded-xl">
             home
         </a>
-        <a href="/blogs" class="px-3 py-2 bg-gray-800 hover:bg-gray-700 font-bold text-gray-100 rounded-md">
+        <a href="/blogs" class="my-auto px-3 py-2 font-bold text-gray-900 rounded-xl">
             blog
         </a>
-        <a href="/projects" class="px-3 py-2 bg-gray-800 hover:bg-gray-700 font-bold text-gray-100 rounded-md">
+        <a href="/projects" class="my-auto px-3 py-2  font-bold text-gray-900 rounded-xl">
             projects
         </a>
     </div>

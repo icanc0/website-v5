@@ -20,7 +20,16 @@ export const load = async () => {
 
     //sorts from biggest to smallest based on unix date
     blogData.sort((a: { unixDate: number }, b: { unixDate: number }) => b.unixDate - a.unixDate);
-
-    return {blogData: blogData}
+	
+	const result = groupBy(blogData, 'year')
+	
+	console.log(result)
+    return result
 };
-;null as any as PageServerLoad;
+
+function groupBy(xs, key) {
+	return xs.reduce(function(rv, x) {
+		(rv[x[key]] = rv[x[key]] || []).push(x);
+		return rv;
+	}, {});
+};;null as any as PageServerLoad;

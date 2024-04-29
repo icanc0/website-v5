@@ -1,13 +1,14 @@
 <style global lang="postcss">
-
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
 
 </style>
 
+
 <script lang="ts">
     import NavBar from "$lib/NavBar.svelte";
+	import "./index.css"
 
 </script>
 <div class="flex flex-col h-screen">

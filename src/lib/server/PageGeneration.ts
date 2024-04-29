@@ -28,6 +28,8 @@ export interface PageMeta {
     thumbnail?: string;
     tags?: string[];
     license?: string;
+	year: string;
+	shortDate: string;
 }
 
 export const processMarkdown = async (rawJSON: PageMeta): Promise<PageMeta> => {
@@ -69,6 +71,7 @@ export const readPage = async (fileName: string, pageType: PageOption): Promise<
 
     data.unixDate = dayjs(data.date).unix();
     data.unixLastMod = dayjs(data.lastMod).unix();
-
+	data.year = dayjs(data.date).format('YYYY');
+	data.shortDate = dayjs(data.date).format('MMM D');
     return data;
 };

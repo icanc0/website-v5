@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'BaronNeue-Black';
     src: url('fonts/BaronNeue-Black.otf') format('opentype');
@@ -33,6 +34,7 @@
     font-style: italic;
 }
 
+
 @font-face {
     font-family: 'BaronNeue-Regular';
     src: url('fonts/BaronNeue-Regular.otf') format('opentype');
@@ -43,4 +45,14 @@
 html {
     background-color: rgb(238 242 255);
     height: 100%;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
+
 }
