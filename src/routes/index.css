@@ -1,35 +1,35 @@
 
 @font-face {
     font-family: 'BaronNeue-Black';
-    src: url('fonts/BaronNeue-Black.otf') format('opentype');
+    src: url('/fonts/BaronNeue-Black.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'BaronNeue-BlackItalic';
-    src: url('fonts/BaronNeue-BlackItalic.otf') format('opentype');
+    src: url('/fonts/BaronNeue-BlackItalic.otf') format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'BaronNeue-Bold';
-    src: url('fonts/BaronNeue-Bold.otf') format('opentype');
+    src: url('/fonts/BaronNeue-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'BaronNeue-BoldItalic';
-    src: url('fonts/BaronNeue-BoldItalic.otf') format('opentype');
+    src: url('/fonts/BaronNeue-BoldItalic.otf') format('opentype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'BaronNeue-Italic';
-    src: url('fonts/BaronNeue-Italic.otf') format('opentype');
+    src: url('/fonts/BaronNeue-Italic.otf') format('opentype');
     font-weight: normal;
     font-style: italic;
 }
@@ -37,7 +37,7 @@
 
 @font-face {
     font-family: 'BaronNeue-Regular';
-    src: url('fonts/BaronNeue-Regular.otf') format('opentype');
+    src: url('/fonts/BaronNeue-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }

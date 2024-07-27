@@ -43,7 +43,7 @@ export const processMarkdown = async (rawJSON: PageMeta): Promise<PageMeta> => {
         .use(rehypePicture)
         .use(rehypeStringify)
         .use(rehypeHighlight)
-        .use(rehypeWrap, {selector: 'img', wrapper: 'div.round.m-4.bg-stone-500'})
+        // .use(rehypeWrap, {selector: 'img', wrapper: 'div.round.m-4.bg-stone-500'})
 
 
     return {
@@ -55,7 +55,7 @@ export const processMarkdown = async (rawJSON: PageMeta): Promise<PageMeta> => {
 
 export const readPage = async (fileName: string, pageType: PageOption): Promise<PageMeta> => {
     const page = await fs.readFile(`static/${pageType.toString()}/${fileName}.md`, 'utf-8');
-
+	console.log(page)
     const data = await unified()
         .use(remarkParse)
         .use(remarkStringify)

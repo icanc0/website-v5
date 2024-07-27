@@ -29,7 +29,6 @@ declare module '$env/static/private' {
 	export const CPLUS_INCLUDE_PATH: string;
 	export const CAML_LD_LIBRARY_PATH: string;
 	export const LDFLAGS: string;
-	export const MANPATH: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
 	export const _P9K_TTY: string;
@@ -130,7 +129,6 @@ declare module '$env/dynamic/private' {
 		CPLUS_INCLUDE_PATH: string;
 		CAML_LD_LIBRARY_PATH: string;
 		LDFLAGS: string;
-		MANPATH: string;
 		NODE: string;
 		INIT_CWD: string;
 		_P9K_TTY: string;

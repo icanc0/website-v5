@@ -17,7 +17,7 @@
 
                 <div class="divide-y-2 divide-gray-400 divide-double flex flex-col w-full">
                     {#each data[index] as blog}
-                        <a href="/blog/{blog.path}" class="text-3xl flex flex-row py-2">
+                        <a href="/blogs/{blog.path}" class="text-3xl flex flex-row py-2">
                             <span class="text-left grow">
                                 {blog.title}
                             </span>

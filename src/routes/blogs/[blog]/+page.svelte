@@ -3,7 +3,7 @@
 
 <script>
     export let data
-    let blog = data.rawJSON
+    let blog = data
 
 </script>
 <div class="w-full ">
@@ -15,7 +15,7 @@
             {blog.date}
         </div>
         <div class="font-medium text-base pb-4 text-gray-600 dark:text-gray-200">
-            {blog.desc}
+            {blog.description}
         </div>
         <div class="prose lg:prose-xl sm:prose-sm dark:text-gray-100 dark:prose-dark">
             {@html blog.body}
