@@ -6,7 +6,7 @@
 
     nothing here :)
 </h>
-
+<a href="projects/project-north-star" id="blogCard">a</a>
 <!--<div class="w-full pt-4 px-2 sm:px-6">-->
 <!--    <div class="flex flex-col space-y-3  w-full">-->
 <!--        {#each data.blogData as page}-->
