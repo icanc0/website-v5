@@ -3,7 +3,8 @@
         {
             title: "Part 1: Install Software",
             items: [
-                { text: "Android Build Tools", url: "https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html#doc-exporting-for-android" },
+                { text: "Android Studio", url: "https://developer.android.com/studio" },
+                { text: "Android Build Tools tutorial", url: "https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_android.html#doc-exporting-for-android" },
                 { text: "Godot", url: "https://godotengine.org/download/" }
             ]
         },
