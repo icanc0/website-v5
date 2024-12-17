@@ -5,7 +5,7 @@
 	//TODO: project section, pulls from github api when there isnt a specific project section
 
 	import {fly} from 'svelte/transition'
-
+    //TODO: transitions APi, freeze the canvas while on other routes,
 	let counter = 0
     let subtitleCounter = 0
 	let names = ['vincent xie', '@icanc']
